@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="gallery-container">
+        <h1>My Awesome Image Gallery</h1>
+
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="city">City</button>
+            <button class="filter-btn" data-filter="abstract">Abstract</button>
+        </div>
+
+        <div class="main-image-display">
+            <img id="featuredImage" src="images/image1.jpg" alt="Featured Image">
+            <button id="prevBtn" class="nav-btn">&lt;</button>
+            <button id="nextBtn" class="nav-btn">&gt;</button>
+        </div>
+
+        <div class="thumbnails-container">
+            <img class="thumbnail active" src="images/image1.jpg" alt="Thumbnail 1" data-category="nature">
+            <img class="thumbnail" src="images/image2.jpg" alt="Thumbnail 2" data-category="city">
+            <img class="thumbnail" src="images/image3.jpg" alt="Thumbnail 3" data-category="abstract">
+            <img class="thumbnail" src="images/image4.jpg" alt="Thumbnail 4" data-category="nature">
+            <img class="thumbnail" src="images/image5.jpg" alt="Thumbnail 5" data-category="city">
+            <img class="thumbnail" src="images/image6.jpg" alt="Thumbnail 6" data-category="abstract">
+            <img class="thumbnail" src="images/image7.jpg" alt="Thumbnail 7" data-category="nature">
+            <img class="thumbnail" src="images/image8.jpg" alt="Thumbnail 8" data-category="city">
+        </div>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <img id="lightboxImage" src="" alt="Lightbox Image">
+        <button id="lightboxPrevBtn" class="lightbox-nav-btn">&lt;</button>
+        <button id="lightboxNextBtn" class="lightbox-nav-btn">&gt;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>
